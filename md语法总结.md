@@ -100,23 +100,39 @@ npm install sftp-client-promise
 # 表格  
 用:的不同位置来改变对齐方式，默认左对齐(:-)，右对齐(-:)，居中对齐(:-:)  
 * 方式一  
->|head|head|head|  
->|:----:|:----|----:|  
->|center|left|right|  
->|center|left|right|  
->|center|left|right|  
+>\|head|head|head|  
+>\|:----:|:----|----:|  
+>\|center|left|right|  
+>\|center|left|right|  
+>\|center|left|right| 
 
-* 方式二  
->head|head|head  
->---:|:---:|---|  
->right|center|left  
->right|center|left  
+|head|head|head|  
+|:----:|:----|----:|  
+|center|left|right|  
+|center|left|right|  
+|center|left|right|  
+
+* 方式二 
+>head\|head|head  
+>---:\|:---:|---|  
+>right\|center|left  
+>right\|center|left 
+
+head|head|head  
+---:|:---:|---|  
+right|center|left  
+right|center|left  
 
 * 方式三  
->head|head|head  
->-|-:|:-:|  
->left|right|center  
->left|right|center  
+>head\|head|head  
+>\-\|-:|:-:|  
+>left\|right|center  
+>left\|right|center  
+
+head|head|head  
+-|-:|:-:|  
+left|right|center  
+left|right|center  
  
 # 强调  
 开头结尾用*(或者_)，* 表示斜体,** 表示加粗，***表示斜体加粗  
