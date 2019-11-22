@@ -189,7 +189,7 @@
     },
   ```
 
-  我们需要按照这组数据循环渲染，很简单，外面包上一层block再用wx:for就可以了
+  我们需要按照这组数据循环渲染，外面包上一层block再用wx:for
 
   ```wxml
   <view class="section">
