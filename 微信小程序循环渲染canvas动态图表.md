@@ -33,6 +33,13 @@
 - wxss部分
 
   ```wxss
+  .section{
+  margin-top: 20rpx;
+  background-color: #fff;
+  }
+  .flex{
+    align-items: center;
+  }
   .circleBar {
     margin:50rpx;
     width: 250rpx;
@@ -40,13 +47,11 @@
     overflow: hidden;
     position: relative;
   }
-   
   .cir {
     display: inline-block;
     background-color: #fff;
     border-radius: 100%;
   }
-   
   .top {
     text-align: left;
   }
