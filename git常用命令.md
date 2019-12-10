@@ -6,7 +6,7 @@ git commit -m "注释" : 提交报本地仓库
 git push : 推送远程仓库  
 git pull : 拉取  
 git status : 查看当前的提交状态  
-.gitignore : 忽略文件夹  
+git ignore : 忽略文件夹  
 git checkout -b xiao_a : 创建xiao_a分支,并且切换到xiao_a分支  
 git branch 分支名 : 创建分支,不切换  
 git checkout 分支名 : 切换到某个分支  
